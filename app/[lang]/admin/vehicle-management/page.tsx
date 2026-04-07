@@ -2,11 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/Button';
-<<<<<<< HEAD
 import { vehicleData, cities, categories } from '@/lib/data/listing-options';
-=======
-import { vehicleData } from '@/lib/data/listing-options';
->>>>>>> cddb703f (Initial commit: BazaarHub marketplace app with Next.js static export for GitHub Pages)
 
 type TabType = 'types' | 'makes' | 'models' | 'options' | 'engines';
 

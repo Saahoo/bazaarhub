@@ -30,7 +30,6 @@ interface VehicleFormData {
   moreDetails: string;
 }
 
-<<<<<<< HEAD
 interface RealEstateFormData {
   type: string;
   bedrooms: string;
@@ -60,70 +59,6 @@ interface ElectronicsFormData {
   photos: File[];
 }
 
-=======
->>>>>>> cddb703f (Initial commit: BazaarHub marketplace app with Next.js static export for GitHub Pages)
-export default function NewListingPage({ params }: { params: { lang: string } }) {
-  const router = useRouter();
-  const [selectedCategory, setSelectedCategory] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState('');
-
-  // Vehicle Form State
-  const [vehicleForm, setVehicleForm] = useState<VehicleFormData>({
-    type: '',
-    make: '',
-    model: '',
-    year: '',
-    option: '',
-    engine: '',
-    power: '',
-    mileage: '',
-    color: '',
-    driveType: '',
-    status: '',
-    photos: [],
-    videos: [],
-    city: '',
-    district: '',
-    street: '',
-    email: '',
-    mobile: '',
-    whatsapp: '',
-    moreDetails: '',
-  });
-
-<<<<<<< HEAD
-  // Real Estate Form State
-  const [realEstateForm, setRealEstateForm] = useState<RealEstateFormData>({
-    type: '',
-    bedrooms: '',
-    bathrooms: '',
-    area: '',
-    city: '',
-    district: '',
-    street: '',
-    email: '',
-    mobile: '',
-    whatsapp: '',
-    photos: [],
-  });
-
-  // Electronics Form State
-  const [electronicsForm, setElectronicsForm] = useState<ElectronicsFormData>({
-    item: '',
-    condition: '',
-    price: '',
-    city: '',
-    district: '',
-    street: '',
-    email: '',
-    mobile: '',
-    whatsapp: '',
-    photos: [],
-  });
-
-=======
->>>>>>> cddb703f (Initial commit: BazaarHub marketplace app with Next.js static export for GitHub Pages)
   // Get available models based on selected make
   const getAvailableModels = () => {
     if (vehicleForm.make) {

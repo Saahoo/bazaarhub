@@ -1,9 +1,5 @@
 import { Noto_Naskh_Arabic, Vazirmatn } from 'next/font/google';
-<<<<<<< HEAD
 import { getDirection } from '@/lib/i18n/config';
-=======
-import { getDirection, i18n } from '@/lib/i18n/config';
->>>>>>> cddb703f (Initial commit: BazaarHub marketplace app with Next.js static export for GitHub Pages)
 import { Header } from '@/components/layout/Header';
 import { RootProvider } from '@/components/providers/RootProvider';
 import type { ReactNode } from 'react';

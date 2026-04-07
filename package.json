@@ -14,10 +14,7 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
-<<<<<<< HEAD
-=======
     "@supabase/ssr": "^0.10.0",
->>>>>>> cddb703f (Initial commit: BazaarHub marketplace app with Next.js static export for GitHub Pages)
     "@supabase/supabase-js": "^2.43.4",
     "clsx": "^2.1.0",
     "i18next": "^23.7.6",

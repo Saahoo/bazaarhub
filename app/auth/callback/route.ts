@@ -1,5 +1,4 @@
 import type { NextRequest } from 'next/server';
-<<<<<<< HEAD
 import { createServerClient } from '@supabase/ssr';
 import { NextResponse } from 'next/server';
 import type { Database } from '@/types/database';
@@ -40,14 +39,4 @@ export async function GET(request: NextRequest) {
     console.error('Auth callback error:', error);
     return NextResponse.redirect(new URL('/auth/error', request.url));
   }
-=======
-import { NextResponse } from 'next/server';
-
-export const dynamic = 'force-static';
-
-export async function GET() {
-  // For static export, auth callbacks are not functional
-  // Redirect to home page
-  return NextResponse.redirect(new URL('/', 'http://localhost'));
->>>>>>> cddb703f (Initial commit: BazaarHub marketplace app with Next.js static export for GitHub Pages)
 }

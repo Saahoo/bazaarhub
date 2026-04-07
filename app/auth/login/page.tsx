@@ -88,11 +88,7 @@ export default function LoginPage() {
           </form>
 
           <p className="mt-4 text-center text-gray-600 dark:text-gray-400">
-<<<<<<< HEAD
             Don't have an account?{' '}
-=======
-            Don&apos;t have an account?{' '}
->>>>>>> cddb703f (Initial commit: BazaarHub marketplace app with Next.js static export for GitHub Pages)
             <a href="/signup" className="text-primary-600 hover:underline dark:text-primary-400">
               Sign up
             </a>

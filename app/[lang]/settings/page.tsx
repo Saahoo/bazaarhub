@@ -5,32 +5,7 @@ import { Button } from '@/components/ui/Button';
 import { createClient } from '@/lib/supabase/client';
 
 export default function SettingsPage() {
-<<<<<<< HEAD
   const [user, setUser] = useState<any>(null);
-=======
->>>>>>> cddb703f (Initial commit: BazaarHub marketplace app with Next.js static export for GitHub Pages)
-  const [isLoading, setIsLoading] = useState(true);
-  const [notifications, setNotifications] = useState({
-    emailNotifications: true,
-    pushNotifications: true,
-    newListings: true,
-    messages: true,
-    reviews: true,
-  });
-  const [privacy, setPrivacy] = useState({
-    profileVisible: true,
-    showEmail: false,
-    showPhone: false,
-  });
-  const supabase = createClient();
-
-  useEffect(() => {
-    const fetchUser = async () => {
-<<<<<<< HEAD
-      const { data: { user } } = await supabase.auth.getUser();
-      setUser(user);
-=======
->>>>>>> cddb703f (Initial commit: BazaarHub marketplace app with Next.js static export for GitHub Pages)
       setIsLoading(false);
     };
 
