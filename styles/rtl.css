@@ -1,0 +1,22 @@
+/* Enable RTL variants in tailwind.config.ts first */
+/* Then use directional utilities */
+
+[dir="rtl"] {
+  /* Flip flex directions */
+  .flex-row { flex-direction: row-reverse; }
+  .flex-row-reverse { flex-direction: row; }
+  
+  /* Flip margins & paddings */
+  .ml-auto { margin-left: 0; margin-right: auto; }
+  .mr-auto { margin-right: 0; margin-left: auto; }
+  
+  /* Flip text alignment defaults */
+  .text-left { text-align: right; }
+  .text-right { text-align: left; }
+  
+  /* Flip icons & arrows */
+  .arrow-right { transform: scaleX(-1); }
+}
+
+/* Use Tailwind's logical properties for cleaner RTL */
+/* Example: ps-4 (padding-start) works for both LTR/RTL */

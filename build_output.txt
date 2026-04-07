@@ -1,0 +1,23 @@
+
+> bazaarhub@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+
+./lib/utils.ts:23:50
+Type error: 'locale' is declared but its value is never read.
+
+  21 | }
+  22 |
+> 23 | export function formatLocation(location: string, locale: string = 'en'): string {
+     |                                                  ^
+  24 |   // location is typically "Kabul, Afghanistan" or just the city name
+  25 |   const parts = location.split(',').map((part) => part.trim());
+  26 |   return parts[0]; // Return just the city for display
+Next.js build worker exited with code: 1 and signal: null
