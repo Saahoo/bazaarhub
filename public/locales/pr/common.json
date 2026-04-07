@@ -1,0 +1,41 @@
+{
+  "navigation": {
+    "home": "خانه",
+    "browse": "مشاهده لیست‌ها",
+    "sell": "فروش",
+    "dashboard": "داشبورد",
+    "login": "ورود",
+    "register": "ثبت نام"
+  },
+  "listing": {
+    "featured": "ویژه",
+    "negotiable": "قابل مذاکره",
+    "add_to_favorites": "ذخیره در علاقه‌مندی‌ها",
+    "contact_seller": "تماس با فروشنده",
+    "share": "اشتراک گذاری"
+  },
+  "filters": {
+    "category": "دسته‌بندی",
+    "all_categories": "همه دسته‌ها",
+    "min_price": "حداقل قیمت",
+    "max_price": "حداکثر قیمت",
+    "location": "موقعیت",
+    "any_location": "هر موقعیت",
+    "condition": "وضعیت",
+    "apply": "اعمال فیلترها",
+    "clear": "پاک کردن"
+  },
+  "condition": {
+    "new": "نو",
+    "like-new": "مانند نو",
+    "good": "خوب",
+    "fair": "متوسط",
+    "poor": "ضعیف"
+  },
+  "sort": {
+    "newest": "جدیدترین اول",
+    "price_low": "قیمت: کم به زیاد",
+    "price_high": "قیمت: زیاد به کم",
+    "popular": "محبوب‌ترین"
+  }
+}

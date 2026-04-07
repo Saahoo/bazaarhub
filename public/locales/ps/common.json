@@ -1,0 +1,41 @@
+{
+  "navigation": {
+    "home": "کور",
+    "browse": "لیستونه وګورئ",
+    "sell": "فروش",
+    "dashboard": "ډشبورډ",
+    "login": "ننوتل",
+    "register": "ثبت نام"
+  },
+  "listing": {
+    "featured": "ځانګړی",
+    "negotiable": "قیمت مذاکره کیدی شي",
+    "add_to_favorites": "ذخیره کول",
+    "contact_seller": "اړیکه نیول",
+    "share": "شریکول"
+  },
+  "filters": {
+    "category": "کټګوري",
+    "all_categories": "ټولې کټګورۍ",
+    "min_price": "لږ قیمت",
+    "max_price": "زیات قیمت",
+    "location": "موقعیت",
+    "any_location": "هر موقعیت",
+    "condition": "حالت",
+    "apply": "پلي کول",
+    "clear": "پاکول"
+  },
+  "condition": {
+    "new": "نوی",
+    "like-new": "لکه نوی",
+    "good": "ښه",
+    "fair": "مناسب",
+    "poor": "ضعیف"
+  },
+  "sort": {
+    "newest": "ترټولو نوی",
+    "price_low": "قیمت: ټیټ څخه لوړ",
+    "price_high": "قیمت: لوړ څخه ټیټ",
+    "popular": "ډیر محبوب"
+  }
+}
